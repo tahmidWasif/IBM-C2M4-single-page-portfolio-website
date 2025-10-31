@@ -132,6 +132,13 @@ h2 {
   width: 2in;
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
+  padding-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  box-shadow: 0 3px 10px black;
+  transform: scale(1.1);
 }
 
 .skill img {
@@ -299,6 +306,8 @@ fieldset {
   border: thin solid white;
   width: 50%;
 }
+
+
 
 /* Buttons */
 
